@@ -1,0 +1,18 @@
+body {
+    text-align: center;
+    font-family: Arial;
+}
+
+#game {
+    display: grid;
+    grid-template-columns: repeat(4, 80px);
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+button {
+    width: 80px;
+    height: 80px;
+    font-size: 20px;
+}
